@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+ruby '2.1.2'
 gem 'rails', '4.1.1'
 
 gem 'sass-rails', '~> 4.0.3'
@@ -21,3 +21,5 @@ gem 'puma'
 group :production do 
   gem 'pg'
 end
+# for heroku
+gem 'rails_12factor'
